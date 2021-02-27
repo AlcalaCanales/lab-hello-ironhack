@@ -6,17 +6,79 @@
   height: 40vmin;
 }
 
-.App-header {
+
+body {
+  width: 100%;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #09d3ac;
+
+
+nav {
+  width: 100%;
+  padding: 10px 20px 20px 10px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
+
+.button {
+  background-color: white;
+  color: #282c34;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#intro{
+  margin-bottom: 50px;
+  color: white;
+  text-align: left;
+  padding-left: 100px;
+  background-image:url('./react-logo.svg'), url('./react-logo.svg'),
+  url('./react-logo.svg'), url('./react-logo.svg'),url('./react-logo.svg') ;
+  background-repeat: no-repeat;
+  background-position: center left, top center, top left, bottom left, center left;
+  background-size: 150%, 10%, 40%, 20%, 5%;
+ 
+}
+#intro p{
+  font-size: 2em;
+  font-weight: 100;
+}
+
+h1{
+  font-size: 4em;
+}
+
+
+#elements {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 100px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+#elements img {
+  width: 130px;
+}
+
+#elements  div {
+  margin-right: 10px
+}
+
+#elements h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#elements p {
+  font-size: 1.5em;
+}
+
+
